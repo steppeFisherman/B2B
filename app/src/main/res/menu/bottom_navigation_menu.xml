@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/explorerFragment"
+        android:title=""
+        app:actionLayout="@layout/bottom_nav_expl"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/basketFragment"
+        android:title=""
+        android:icon="@drawable/ic_basket"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/favouriteFragment"
+        android:icon="@drawable/ic_favourite_bottom"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/personFragment"
+        android:icon="@drawable/ic_person"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+</menu>

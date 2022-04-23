@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">B2B Concept</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_books_fragment">Hello Books Fragment</string>
+    <string name="hello_basket_fragment">Hello Basket Fragment</string>
+    <string name="hello_favourite_fragment">Hello Favourite Fragment</string>
+    <string name="hello_person_fragment">Hello Person Fragment</string>
+    <string name="hello_explorer_fragment">Hello Explorer Fragment</string>
+    <string name="hello_computer_fragment">Hello Computer Fragment</string>
+    <string name="hello_health_fragment">Hello Health Fragment</string>
+    <string name="hello_others_fragment">Hello Others Fragment</string>
+    <string name="hello_othersTwo_fragment">Hello OthersTwo Fragment</string>
+    <string name="hello_othersThree_fragment">Hello OthersThree Fragment</string>
+    <string name="no_connection_message">No Connection</string>
+    <string name="service_unavailable_message">Service Unavailable</string>
+    <string name="null_pointer_exception">NullPointerException</string>
+    <string name="arithmetic_exception">ArithmeticException</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <string name="hot_sales">Hot sales</string>
+    <string name="best_seller">Best Seller</string>
+    <string name="dollar_sign">$</string>
+    <string name="select_cate">Select Category</string>
+    <string name="phones">phones</string>
+    <string name="computer">computer</string>
+    <string name="health">health</string>
+    <string name="books">books</string>
+    <string name="others">others</string>
+    <string name="others_1">othersOne</string>
+    <string name="others_2">othersTwo</string>
+    <string name="buy_now">Buy now!</string>
+    <string name="done">Done</string>
+    <string name="view_all">view all</string>
+    <string name="see_more">see more</string>
+    <string name="filter_opti">Filter options</string>
+    <string name="brand">Brand</string>
+    <string name="price">Price</string>
+    <string name="price_filtered">$100 - $10000</string>
+    <string name="size">Size</string>
+    <string name="size_filtered">4.5 to 5.5 inches</string>
+    <string name="samsung">Samsung</string>
+    <string name="explorer">Explorer</string>
+
+    <string-array name="phones">
+        <item>Samsung</item>
+        <item>Iphone</item>
+        <item>Xiaomi</item>
+    </string-array>
+
+    <string-array name="range">
+        <item />
+    </string-array>
+
+
+</resources>

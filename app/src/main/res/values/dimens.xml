@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_6dp">6dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_negative_10dp">-10dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_negative_16dp">-16dp</dimen>
+    <dimen name="height_22dp">22dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="size_27dp">27dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_32dp">32dp</dimen>
+    <dimen name="margin_60dp">60dp</dimen>
+    <dimen name="margin_82dp">82dp</dimen>
+    <dimen name="margin_90dp">90dp</dimen>
+    <dimen name="margin_106dp">106dp</dimen>
+    <dimen name="height_132dp">132dp</dimen>
+    <dimen name="margin_166dp">166dp</dimen>
+    <dimen name="margin_210dp">210dp</dimen>
+    <dimen name="width_300dp">300dp</dimen>
+    <dimen name="card_elevation_zero">0dp</dimen>
+    <dimen name="corner_radius_8dp">8dp</dimen>
+    <dimen name="corner_radius_10dp">10dp</dimen>
+    <dimen name="main_corner_radius_30dp">30dp</dimen>
+    <dimen name="bottom_nav_height">72dp</dimen>
+    <dimen name="img_height_best_seller">132dp</dimen>
+    <dimen name="img_width_best_seller">160dp</dimen>
+    <dimen name="size_18sp">18sp</dimen>
+    <dimen name="size_18dp">18dp</dimen>
+    <dimen name="size_24sp">24sp</dimen>
+    <dimen name="size_27sp">27sp</dimen>
+    <dimen name="size_30sp">30sp</dimen>
+    <dimen name="txt_cate_height_32sp">32sp</dimen>
+    <dimen name="custom_peek_height">347dp</dimen>
+</resources>
+

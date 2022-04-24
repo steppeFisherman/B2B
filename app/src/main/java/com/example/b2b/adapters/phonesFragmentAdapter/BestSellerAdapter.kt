@@ -1,4 +1,4 @@
-package com.example.ecommerceconcept.adapters.phonesFragmentAdapter
+package com.example.b2b.adapters.phonesFragmentAdapter
 
 import android.content.Context
 import android.graphics.Paint.STRIKE_THRU_TEXT_FLAG

@@ -7,14 +7,13 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.b2b.databinding.MainActivityItemRawBinding
 import com.example.b2b.model.Category
-import com.example.ecommerceconcept.adapters.MainDiffUtil
 import com.example.b2b.utils.TextColorProvider
 
-class MainActivityAdapter(
+class ExplorerAdapter(
     private val onClick: OnClick,
     private val textColorProvider: TextColorProvider
 ) :
-    RecyclerView.Adapter<MainActivityAdapter.MainHolder>() {
+    RecyclerView.Adapter<ExplorerAdapter.MainHolder>() {
 
     private var mList = emptyList<Category>()
     private var mListSelected = emptyList<Category>()
@@ -59,7 +58,7 @@ class MainActivityAdapter(
         RecyclerView.ViewHolder(binding.root)
 
     fun setData(newList: List<Category>, listSelected: List<Category>) {
-        val diffUtil = MainDiffUtil(mList, newList)
+        val diffUtil = ExplorerDiffUtil(mList, newList)
         val diffResult = DiffUtil.calculateDiff(diffUtil)
         mList = newList
         mListSelected = listSelected

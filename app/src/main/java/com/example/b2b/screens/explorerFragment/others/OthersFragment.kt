@@ -8,7 +8,6 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class OthersFragment : BaseFragment<FragmentOthersBinding>() {
-
     override fun initBinding(inflater: LayoutInflater, container: ViewGroup?) =
         FragmentOthersBinding.inflate(inflater, container, false)
 }

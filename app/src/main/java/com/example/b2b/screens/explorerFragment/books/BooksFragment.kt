@@ -8,7 +8,6 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class BooksFragment : BaseFragment<FragmentBooksBinding>() {
-
     override fun initBinding(inflater: LayoutInflater, container: ViewGroup?) =
         FragmentBooksBinding.inflate(inflater, container, false)
 }

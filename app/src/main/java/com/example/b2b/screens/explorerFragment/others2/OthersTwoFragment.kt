@@ -1,4 +1,4 @@
-package com.example.ecommerceconcept.screens.others2
+package com.example.b2b.screens.explorerFragment.others2
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -8,7 +8,6 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class OthersTwoFragment : BaseFragment<FragmentOthersTwoBinding>() {
-
     override fun initBinding(inflater: LayoutInflater, container: ViewGroup?) =
         FragmentOthersTwoBinding.inflate(inflater, container, false)
 }

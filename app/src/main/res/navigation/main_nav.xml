@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/explorerFragment">
+
+    <fragment
+        android:id="@+id/explorerFragment"
+        android:name="com.example.b2b.screens.explorerFragment.ExplorerFragment"
+        android:label="fragment_explorer"
+        tools:layout="@layout/fragment_explorer" />
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.example.b2b.screens.basketFragment.BasketFragment"
+        android:label="fragment_basket"
+        tools:layout="@layout/fragment_basket" />
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.example.b2b.screens.favouriteFragment.FavouriteFragment"
+        android:label="fragment_favourite"
+        tools:layout="@layout/fragment_favourite" />
+    <fragment
+        android:id="@+id/personFragment"
+        android:name="com.example.b2b.screens.personFragment.PersonFragment"
+        android:label="fragment_person"
+        tools:layout="@layout/fragment_person" />
+
+    <dialog
+        android:id="@+id/viewAllFragment"
+        android:name="com.example.b2b.screens.explorerFragment.viewall.ViewAllFragment"
+        android:label="ViewAllFragment" />
+    <action
+        android:id="@+id/action_global_viewAllFragment"
+        app:destination="@id/viewAllFragment"
+        app:popUpTo="@id/main_nav"
+        app:popUpToInclusive="true" />
+
+</navigation>

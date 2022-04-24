@@ -1,4 +1,4 @@
-package com.example.ecommerceconcept.adapters.phonesFragmentAdapter
+package com.example.b2b.adapters.phonesFragmentAdapter
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -16,7 +16,6 @@ import com.example.b2b.utils.BestSellerAppProvider
 import com.example.b2b.utils.LoadImage
 import com.example.b2b.utils.ResourceProvider
 import com.example.b2b.utils.getString
-
 
 class PhonesFragmentAdapter : RecyclerView.Adapter<PhonesFragmentAdapter.PhonesHolder>() {
     private var mListHomeStoreApp = emptyList<HomeStoreApp>()

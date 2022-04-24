@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/explorer_nav"
+    app:startDestination="@id/phonesFragment">
+
+    <fragment
+        android:id="@+id/phonesFragment"
+        android:name="com.example.b2b.screens.explorerFragment.phones.PhonesFragment"
+        android:label="PhonesFragment" />
+    <fragment
+        android:id="@+id/computerFragment"
+        android:name="com.example.b2b.screens.explorerFragment.computer.ComputerFragment"
+        android:label="ComputerFragment" />
+    <fragment
+        android:id="@+id/healthFragment"
+        android:name="com.example.b2b.screens.explorerFragment.health.HealthFragment"
+        android:label="HealthFragment" />
+    <fragment
+        android:id="@+id/booksFragment"
+        android:name="com.example.b2b.screens.explorerFragment.books.BooksFragment"
+        android:label="BooksFragment" />
+    <fragment
+        android:id="@+id/othersFragment"
+        android:name="com.example.b2b.screens.explorerFragment.others.OthersFragment"
+        android:label="OthersFragment" />
+    <fragment
+        android:id="@+id/othersTwoFragment"
+        android:name="com.example.b2b.screens.explorerFragment.others2.OthersTwoFragment"
+        android:label="OthersTwoFragment" />
+    <fragment
+        android:id="@+id/othersThreeFragment"
+        android:name="com.example.b2b.screens.explorerFragment.others3.OthersThreeFragment"
+        android:label="OthersThreeFragment" />
+    <action
+        android:id="@+id/action_global_phonesFragment"
+        app:destination="@id/phonesFragment"
+        app:popUpTo="@id/explorer_nav"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_global_computerFragment"
+        app:destination="@id/computerFragment"
+        app:popUpTo="@id/explorer_nav"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_global_healthFragment"
+        app:destination="@id/healthFragment"
+        app:popUpTo="@id/explorer_nav"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_global_othersFragment"
+        app:destination="@id/othersFragment"
+        app:popUpTo="@id/explorer_nav"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_global_othersTwoFragment"
+        app:destination="@id/othersTwoFragment"
+        app:popUpTo="@id/explorer_nav"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_global_othersThreeFragment"
+        app:destination="@id/othersThreeFragment"
+        app:popUpTo="@id/explorer_nav"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_global_booksFragment"
+        app:destination="@id/booksFragment"
+        app:popUpTo="@id/explorer_nav"
+        app:popUpToInclusive="true" />
+</navigation>

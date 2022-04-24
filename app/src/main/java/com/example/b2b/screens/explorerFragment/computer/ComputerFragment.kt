@@ -8,7 +8,6 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class ComputerFragment : BaseFragment<FragmentComputerBinding>() {
-
     override fun initBinding(inflater: LayoutInflater, container: ViewGroup?) =
         FragmentComputerBinding.inflate(inflater, container, false)
 }

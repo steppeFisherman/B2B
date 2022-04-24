@@ -1,9 +1,9 @@
-package com.example.ecommerceconcept.adapters
+package com.example.b2b.adapters
 
 import androidx.recyclerview.widget.DiffUtil
 import com.example.b2b.model.Category
 
-class MainDiffUtil(
+class ExplorerDiffUtil(
     private val oldList: List<Category>,
     private val newList: List<Category>
 ) : DiffUtil.Callback() {

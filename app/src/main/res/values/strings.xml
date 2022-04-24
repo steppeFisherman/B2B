@@ -47,9 +47,12 @@
         <item>Xiaomi</item>
     </string-array>
 
-    <string-array name="range">
-        <item />
+    <string-array name="price_range">
+        <item>$100 - $10000</item>
     </string-array>
 
+    <string-array name="size_range">
+        <item>4.5 to 5.5 inches</item>
+    </string-array>
 
 </resources>

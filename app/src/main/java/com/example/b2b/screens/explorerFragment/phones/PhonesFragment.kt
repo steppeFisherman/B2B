@@ -6,9 +6,8 @@ import androidx.fragment.app.viewModels
 import com.example.b2b.R
 import com.example.b2b.databinding.FragmentPhonesBinding
 import com.example.b2b.screens.BaseFragment
-import com.example.b2b.utils.ShowSnack
-import com.example.ecommerceconcept.adapters.phonesFragmentAdapter.PhonesFragmentAdapter
 import com.example.b2b.utils.showSnackLong
+import com.example.b2b.adapters.phonesFragmentAdapter.PhonesFragmentAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -35,7 +34,7 @@ class PhonesFragment : BaseFragment<FragmentPhonesBinding>() {
         vm.error.observe(viewLifecycleOwner) {
             when (it.ordinal) {
                 0 -> view?.showSnackLong(R.string.no_connection_message)
-                1 -> (requireActivity() as ShowSnack).showToast(R.string.null_pointer_exception)
+                1 -> view?.showSnackLong(R.string.null_pointer_exception)
                 2 -> view?.showSnackLong(R.string.something_went_wrong)
             }
         }

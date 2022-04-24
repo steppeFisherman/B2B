@@ -37,11 +37,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/main_activity_rv"
+        android:id="@+id/expl_rv"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:background="@color/purple_200"
+        android:layout_height="wrap_content"
+        android:background="@color/main_background"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintTop_toBottomOf="@+id/txt_select_cate" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/explorer_nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        android:background="@color/main_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expl_rv"
+        app:navGraph="@navigation/explorer_nav" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
